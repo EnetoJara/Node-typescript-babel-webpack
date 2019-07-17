@@ -5,6 +5,9 @@
     "no-unused-expression": true
   },
   "rules": {
+    "no-duplicate-imports": false,
+    "no-implicit-dependencies": false,
+    "no-submodule-imports": false,
     "variable-name": false,
     "only-arrow-functions": false,
     "quotemark": [true, "double"],

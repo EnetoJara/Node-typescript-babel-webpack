@@ -1,7 +1,3 @@
-// tslint:disable-next-line:no-var-requires
-// tslint:disable:no-var-requires
-// tslint:disable:no-implicit-dependencies
-// tslint:disable:no-submodule-imports
 import "@babel/register";
 import "core-js";
 import "@babel/runtime/regenerator";
@@ -15,9 +11,6 @@ import { UserController } from "./controllers/user-controller";
 
 const app = Express();
 
-/**
- * trollmon
- */
 useContainer(Container);
 
 const port = Number(process.env.PORT) || 8080;
