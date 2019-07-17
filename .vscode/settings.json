@@ -1,0 +1,149 @@
+{
+
+	// Enable/disable automatic closing of JSX tags. Requires using TypeScript 3.0 or newer in the workspace.
+	"typescript.autoClosingTags": true,
+
+	// Check if npm is installed for Automatic Type Acquisition.
+	"typescript.check.npmIsInstalled": true,
+
+	// Disables automatic type acquisition. Automatic type acquisition fetches `@types` packages from npm to improve IntelliSense for external libraries.
+	"typescript.disableAutomaticTypeAcquisition": false,
+
+	// Enable/disable default TypeScript formatter.
+	"typescript.format.enable": true,
+
+	// Defines space handling after a comma delimiter.
+	"typescript.format.insertSpaceAfterCommaDelimiter": true,
+
+	// Defines space handling after the constructor keyword. Requires using TypeScript 2.3.0 or newer in the workspace.
+	"typescript.format.insertSpaceAfterConstructor": false,
+
+	// Defines space handling after function keyword for anonymous functions.
+	"typescript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+
+	// Defines space handling after keywords in a control flow statement.
+	"typescript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+
+	// Defines space handling after opening and before closing JSX expression braces.
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": false,
+
+	// Defines space handling after opening and before closing non-empty braces. Requires using TypeScript 2.3.0 or newer in the workspace.
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+
+	// Defines space handling after opening and before closing non-empty brackets.
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": false,
+
+	// Defines space handling after opening and before closing non-empty parenthesis.
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+
+	// Defines space handling after opening and before closing template string braces.
+	"typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": false,
+
+	// Defines space handling after a semicolon in a for statement.
+	"typescript.format.insertSpaceAfterSemicolonInForStatements": true,
+
+	// Defines space handling after type assertions in TypeScript. Requires using TypeScript 2.4 or newer in the workspace.
+	"typescript.format.insertSpaceAfterTypeAssertion": false,
+
+	// Defines space handling after a binary operator.
+	"typescript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+
+	// Defines space handling before function argument parentheses.
+	"typescript.format.insertSpaceBeforeFunctionParenthesis": false,
+
+	// Defines whether an open brace is put onto a new line for control blocks or not.
+	"typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+
+	// Defines whether an open brace is put onto a new line for functions or not.
+	"typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+
+	// Enable/disable implementations CodeLens. This CodeLens shows the implementers of an interface.
+	"typescript.implementationsCodeLens.enabled": false,
+
+	// Sets the locale used to report JavaScript and TypeScript errors. Requires using TypeScript 2.6.0 or newer in the workspace. Default of `null` uses VS Code's locale.
+	"typescript.locale": null,
+
+	// Specifies the path to the npm executable used for Automatic Type Acquisition. Requires using TypeScript 2.3.4 or newer in the workspace.
+
+	// Preferred path style for auto imports.
+	//  - auto: Automatically select import path style. Prefers using a relative import if `baseUrl` is configured and the relative path has fewer segments than the non-relative import.
+	//  - relative: Relative to the file location.
+	//  - non-relative: Based on the `baseUrl` configured in your `jsconfig.json` / `tsconfig.json`.
+	"typescript.preferences.importModuleSpecifier": "auto",
+
+	// Preferred quote style to use for quick fixes: `single` quotes, `double` quotes, or `auto` infer quote type from existing imports. Requires using TypeScript 2.9 or newer in the workspace.
+	"typescript.preferences.quoteStyle": "auto",
+
+	// Enable/disable introducing aliases for object shorthand properties during renames. Requires using TypeScript 3.4 or newer in the workspace.
+	"typescript.preferences.renameShorthandProperties": true,
+
+	// Enable/disable references CodeLens in TypeScript files.
+	"typescript.referencesCodeLens.enabled": false,
+
+	// Report style checks as warnings.
+	"typescript.reportStyleChecksAsWarnings": true,
+
+	// Enable/disable auto import suggestions. Requires using TypeScript 2.6.1 or newer in the workspace.
+	"typescript.suggest.autoImports": true,
+
+	// Complete functions with their parameter signature.
+	"typescript.suggest.completeFunctionCalls": false,
+
+	// Enable/disable suggestion to complete JSDoc comments.
+	"typescript.suggest.completeJSDocs": true,
+
+	// Enabled/disable autocomplete suggestions.
+	"typescript.suggest.enabled": true,
+
+	// Enable/disable suggestions for paths in import statements and require calls.
+	"typescript.suggest.paths": true,
+
+	// Enable/disable suggestion diagnostics for TypeScript files in the editor. Requires using TypeScript 2.8 or newer in the workspace.
+	"typescript.suggestionActions.enabled": true,
+
+	// Controls auto detection of tsc tasks.
+	//  - on: Create both build and watch tasks.
+	//  - off: Disable this feature.
+	//  - build: Only create single run compile tasks.
+	//  - watch: Only create compile and watch tasks.
+	"typescript.tsc.autoDetect": "on",
+
+	// Specifies the folder path containing the tsserver and lib*.d.ts files to use.
+	"typescript.tsdk": null,
+
+	// Enables logging of the TS server to a file. This log can be used to diagnose TS Server issues. The log may contain file paths, source code, and other potentially sensitive information from your project.
+	"typescript.tsserver.log": "off",
+
+	// Additional paths to discover Typescript Language Service plugins. Requires using TypeScript 2.3.0 or newer in the workspace.
+
+	// Enables tracing of messages sent to the TS server. This trace can be used to diagnose TS Server issues. The trace may contain file paths, source code, and other potentially sensitive information from your project.
+	"typescript.tsserver.trace": "off",
+
+	// Enable/disable automatic updating of import paths when you rename or move a file in VS Code. Requires using TypeScript 2.9 or newer in the workspace.
+	//  - prompt: Prompt on each rename.
+	//  - always: Always update paths automatically.
+	//  - never: Never rename paths and don't prompt.
+	"typescript.updateImportsOnFileMove.enabled": "prompt",
+
+	// Enable/disable TypeScript validation.
+  "typescript.validate.enable": true,
+  "tslint.ignoreDefinitionFiles": true,
+  "tslint.suppressWhileTypeErrorsPresent": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "propTypes.autoImport": "ES6",
+  "npm-intellisense.importQuotes": "\"",
+  "npm-intellisense.packageSubfoldersIntellisense": true,
+  "npm-intellisense.scanDevDependencies": true,
+  "path-intellisense.autoSlashAfterDirectory": true,
+  "comment-ts.includeAuthorTag": true,
+  "comment-ts.includeDescriptionTag": true,
+  "better-comments.highlightPlainText": true,
+  "bracketPairColorizer.forceIterationColorCycle": true,
+  "bracketPairColorizer.forceUniqueOpeningColor": true,
+  "bracketPairColorizer.highlightActiveScope": true,
+  "bracketPairColorizer.showBracketsInGutter": true,
+  "bracketPairColorizer.showBracketsInRuler": true,
+  "prettier.tslintIntegration": true,
+  "workbench.colorTheme": "Firefox Devtools Italic",
+  "workbench.sideBar.location": "right",
+}
